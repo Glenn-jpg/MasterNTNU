@@ -65,7 +65,7 @@ namespace FDM
             if (!DA.GetDataList(1, qs)) return;
             if (!DA.GetDataList(2, sPts)) return;
             if (!DA.GetData(3, ref fVec)) return;
-
+            //test
             List<branch_force_pair> bf_pairs = new List<branch_force_pair>();
             for (int i = 0; i < lines.Count; i++)
             {
