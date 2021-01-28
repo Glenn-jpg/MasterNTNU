@@ -68,8 +68,8 @@ namespace FDM
 
             List<branch_force_pair> bf_pairs = new List<branch_force_pair>();
             for (int i = 0; i < lines.Count; i++)
-            {  
-              bf_pairs.Add(new branch_force_pair(lines[i], qs[i]));
+            {
+                bf_pairs.Add(new branch_force_pair(lines[i], qs[i], i));
             }
 
             List<Point3d> sortedPoints = SortPoints(bf_pairs, sPts);

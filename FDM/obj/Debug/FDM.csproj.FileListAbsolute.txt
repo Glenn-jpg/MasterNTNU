@@ -1,0 +1,2 @@
+C:\Users\PewPe\Source\Repos\MasterNTNU\FDM\obj\Debug\FDM.csprojAssemblyReference.cache
+C:\Users\PewPe\Source\Repos\MasterNTNU\FDM\obj\Debug\FDM.csproj.CoreCompileInputs.cache
